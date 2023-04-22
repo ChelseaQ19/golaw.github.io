@@ -1,0 +1,879 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ 
+ 
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+ 
+.hero {
+	height: 100vh;
+	width: 100%;
+	background-image: url("images/giphy.gif");
+	background-size: cover;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 20px;
+}
+
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Fraunces', serif;
+}
+
+nav ul li a:hover {
+	color: antiquewhite;
+	transition: all 2s, ease 1s;
+	text-decoration: none;
+}
+
+.content {
+	position: absolute;
+	top: 28%;
+	left: 20%;
+	opacity: 100%;
+	color:  black;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: bolder;
+}
+
+h1 {
+	color: black;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 70px;
+	margin: 50px 0px;
+	
+}
+
+h3 {
+	color: antiquewhite;
+	margin-bottom: 50px;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+nav li a  {
+  opacity: 0;
+  animation: fade-in 1s ease-in forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.content {
+  opacity: 0;
+  animation: fade-in 2s ease-in forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.about {
+	background: #F4ECE6;
+	opacity: 80%;
+	font-family: 'Abril Fatface', cursive;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+ 
+.ParaOne {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	color: black;
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+}
+ 
+
+ .main {
+	width: 1130px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+ .btn {
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 80%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h2 {
+	text-align: center;
+}
+
+#H2 {
+	font-family: 'Abril Fatface', cursive;
+	color: black;
+	font-size: 50px;
+	margin: 20px;
+	padding: 10px; 
+	 
+}
+ 
+.ParaOne {
+  animation: fade-in 2  s ease-in forwards;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.ParaTwo {
+  animation: fade-in 4s ease-in forwards;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#modules {
+	 background:#3B3642;
+	 color: #F4ECE6;
+	 font-family: 'Abril Fatface', cursive;
+	 font-size: 50px;
+}
+
+.module {
+	background-color: #3B3642;
+}
+
+  swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #000;
+    }
+
+    swiper-slide img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      -ms-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+    }
+
+ 
+ swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+#H22 {
+ 
+	font-family: 'Abril Fatface', cursive;
+	color: black;
+	font-size: 50px;
+	margin: 20px;
+	padding: 10px; 
+ 
+}
+
+.mvv-container {
+	max-width: 90%;
+	margin: 50px auto 0;
+	
+}
+
+.mvv-container, .mvv-block {
+    font-family: 'Montserrat', sans-serif; 
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.mvv.container, mvv.block, .image {
+	flex: 0 0 auto;
+	width: 500px;
+}
+
+.mvv.container, mvv.block, .image img {
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 5px rgba(0,0,0, .3);
+}
+
+.mvv-container, .mvv-block, .content {
+	flex: 0 0 auto;
+	width: calc(100% - 400px);
+	
+}
+
+@media screen and (min-width: 1024px)
+{
+	.mvv.container, mvv.block:nth-child(odd), .image
+	{
+		order: 1;
+	}
+	.mvv.container, mvv.block:nth-child(even), .image
+	{
+		order: 2;
+	}
+	
+	.mvv.container, mvv.block:nth-child(odd), .content
+	{
+		order: 1;
+	}
+	
+	.mvv.container, mvv.block:nth-child(even), .content
+	{
+		order: 2;
+	}
+}
+
+#H21 {
+	font-family: 'Abril Fatface', cursive;
+	color: #F4ECE6;
+	font-size: 50px;
+	margin: 20px;
+	padding: 10px; 
+}
+
+.entry {
+	background:#3B3642;
+}
+
+.container-entry {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 40px;
+}
+
+.card {
+	position: relative;
+	width: 420px;
+	height: 550px;
+	margin: 40px;
+	background:#EDEBEB;
+	border-radius: 20px;
+	border-bottom-left-radius: 160px;
+	border-bottom-right-radius: 160px;
+	box-shadow: 0 15px 0 #fff,
+	inset 0 -15px 0 rgba(255,255,255,0.25),
+	0 45px 0 rgba(0,0,0,0.15);
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	
+}
+
+.card::before {
+	content: '';
+	position: absolute;
+	top: 140px;
+	left: -40%;
+	width: 100%;
+	height: 120%;
+	background: linear-gradient(90deg,transparent,rgba(225,225,225,0.2));
+	transform: rotate(35deg);
+	pointer-events: none;
+	filter: blur(5px);
+}
+
+.card:nth-child(1)
+{
+	background: linear-gradient(to bottom, #998f86,#d5c6b8);
+}
+
+.card:nth-child(1)
+{
+	background: linear-gradient(to bottom, #998f86,#d5c6b8);
+}
+ 
+
+.card:nth-chil2(2)
+{
+	background: linear-gradient(to bottom, #7d756d,#b5aa9f);
+}
+.card:nth-child(3)
+{
+	background: linear-gradient(to bottom, #998f86,#d5c6b8);
+}
+
+.card:nth-child(4)
+{
+	background: linear-gradient(to bottom, #998f86,#d5c6b8);
+}
+
+.content-Entry {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	width: 100%;
+	padding: 40px;
+	padding-top: 140px;
+	text-align: center;
+}
+ 
+.pageTwo {
+	font-family: 'Abril Fatface', cursive;
+	color: #F4ECE6;
+	font-size: 40px;
+	text-align: center;
+	margin: 40px;
+	animation: fade-in 2s ease-in forwards;
+}
+
+
+
+.campusText {
+	font-family: 'Montserrat', sans-serif; 
+	color: #F4ECE6;
+	font-size: 20px;
+	text-align: center;
+	 animation: fade-in 4s ease-in forwards;
+}
+
+#H24 {
+	font-family: 'Abril Fatface', cursive;
+	color: black;
+	font-size: 50px;
+	margin: 20px;
+	padding: 10px; 
+}
+
+.facility {
+	background-color: antiquewhite;
+}
+
+  
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+.imageFacilityOne {
+	float: right;
+}
+
+img {
+	
+}
+
+.float.img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	border: solid-black 1px;
+	padding: 2px;
+}
+
+img {
+	max-width: 420px;
+}
+
+.wrapper {
+	margin: 20px auto;
+	top: 100;
+	padding: 20px;
+	width: 70%;
+}
+
+.srcFacility {
+	float: left;
+	margin: 0px;
+}
+
+.srcFacilityTwo {
+	float: right;
+	
+}
+
+.wrapperTwo {
+	margin: 400px auto;
+	width: 70%;
+}
+
+.facilityTextTwo {
+	  
+	    
+	 text-align: center;
+	 margin: 10px;
+	 font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+	 
+	 
+}
+
+.facilities {
+	background-color: antiquewhite;
+ 
+}
+
+ 
+
+.description-container {
+ 
+ 
+}
+
+
+
+.description-container, .floating-image {
+	max-width: 400px;
+	
+}
+
+.description-container, .floating-image right {
+	float: right;
+}
+
+.description-container, .floating-image right {
+	
+}
+
+.right {
+	max-width: 600px;
+	margin: 40px auto 20px;
+	padding: 20px;
+}
+
+.srcJob {
+	 
+	float: left;
+	margin: 10px;
+}
+
+.srcJobTwo {
+	width: 600px;
+	float: right;
+	margin: 10px;
+}
+
+.wrapperThree {
+	margin: 200px auto;
+	width: 70%;
+}
+
+.btn-dark-One {
+	color: white;
+	font-weight: bolder;
+}
+
+.btn-link-one {
+	color: aliceblue;
+}
+
+.facilityText {
+	 margin: 5px;
+	 font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+	 text-align: center;
+ 
+	 
+}
+
+.text-box {
+	 
+}
+
+.wrapperFacilityOne {
+	margin: 20px auto;
+	top: 100;
+	padding: 20px;
+	width: 80%;
+}
+
+.wrapperFacilityTwo {
+	margin: 20px auto;
+	top: 100;
+	padding: 20px;
+	width: 80%;
+}
+
+.srcPageTwoFirst {
+	float: left;
+	margin: 10px;
+}
+
+.srcPageTwo {
+	float: right;
+	margin: 10px;
+}
+
+.facilityTextPageTwo {
+	 text-align: right;
+	 margin: 5px;
+	 font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+}
+
+.facilityTextPageOne {
+	 margin: 5px;
+	 font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+ 
+}
+
+#WATERFORD {
+	font-family: 'Abril Fatface', cursive;
+	color:  antiquewhite;
+	font-size: 50px;
+	margin: 20px;
+	padding: 10px; 
+}
+
+.Facilities {
+	background-color: antiquewhite;
+}
+
+ 
+
+ 
+
+.rowTwo {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.rowThree {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.rowFour {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.columnTwo {
+	margin: 100px;
+}
+
+.column {
+  margin: 0px;
+}
+
+.columnAddOn {
+	margin: 40px;
+ 
+}
+
+#previousStudentOne {
+	font-family: 'Abril Fatface', cursive;
+	color:  black;
+	font-size: 50px;
+	margin: 20px;
+	padding: 10px; 
+}
+
+.wrapperStudent {
+    font-family: sans-serif;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.wrapper:hover .StudentFirst {
+	opacity: -5;
+}
+
+.wrapper:hover .overlay {
+	opacity: 1;
+	
+}
+
+
+.StudentFirst {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5 ease;
+}
+
+.contentStudent {
+	position: absolute;
+	top: 28%;
+	left: 9%;
+	text-transform: uppercase;
+	color: antiquewhite;
+	font-weight: bolder;
+	white-space: nowrap;
+	overflow: hidden;
+ 
+}
+ 
+
+.overlay {
+	opacity: 0;
+}
+
+#previousStudentTwo {
+	font-family: 'Abril Fatface', cursive;
+	color:  black;
+	font-size: 50px;
+	margin: 20px;
+	padding: 10px; 
+}
+
+.StudentStories {
+	background-color: antiquewhite;
+}
+
+#previousStudents {
+	background-color: white;
+}
+
+.stories {
+	background-color: antiquewhite;
+}
+
+#Contact {
+	background-color: #7B7188;
+}
+
+#ContactUs {
+	 font-family: 'Abril Fatface', cursive;
+     font-size: 50px;
+	 
+}
+
+.iconPhone {
+	 margin: 10px;
+	  
+}
+
+.PhoneNo {
+	text-align: center;
+}
+
+.iconEmail {
+	margin: 10px;
+	 
+}
+
+.email {
+    text-align: center;
+}
+
+.iconAddress {
+	margin: 5px;
+ 
+}
+
+.address {
+	text-align: center;
+}
+
+#GetinTouch {
+	font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+	padding: 0;
+	margin: 5px;
+}
+
+.srcContact {
+	margin: 5px;
+}
+
+.srcContactTwo {
+	margin: -290px;
+	padding: 10px;
+	 
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: yellow;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.submitButton {
+	 
+}
+
+.iconInstagram {
+	margin: 10px;
+	float: right;
+}
+
+.iconFacebook {
+	float: right;
+}
+
+.footer {
+	animation-name: 10px;
+}
+
+.ParaFirst {
+  animation: fade-in 2s ease-in forwards;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.arrowOne {
+	margin: 10px;
+}
+
+.headingOne {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: bolder;
+	text-align: center;
+	 
+}
+ 
+.Accountant {
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px;
+	
+}
+
+.book {
+	margin: 170px;
+	position: absolute;
+	top: -120px;
+	 
+}
